@@ -1,0 +1,39 @@
+Rap Graph is an application that allows users to perform a lyric analysis on
+musical artists using three unique graphical displays and to compare the data 
+that has been gathered against that of the artists' peers. The program measures
+an artist's literal prowess by the uniqueness of the words used in his lyrics
+(using set math) and measures the popularity of the rapper on twitter (via data
+collected by the temboo api, and potentially the tweepy api to keep track of 
+real time popularity in the future). 
+
+A thorough explanation of my inspiration for this project is explained in the
+projectProposal.docx file
+
+there are three functional screens by which a user can analyze an artist's
+lyrical ability. As explained in the how to screen:
+
+The first graphical representation for an artist's lyrics is the Tag Cloud.
+Clicking on a rapper's bubble will display a word cloud of the artist's most
+used lyrics displayed in such a way where the prevalence of an artist's lyrics
+corresponds to the size of the word in the cloud.
+
+The seond graphical representation for an artist's lyrics is the Influence Graph.
+This graph allows the user to see which artists influenced one another.
+The color of the line drawn between an artist and the artist who has influenced 
+that artist the most depends on the influential artist. For example, if both 
+Common and Nas were influenced heavily by Nas, then the line linking them and Nas
+would be the same color.
+Clicking on any artist will give the user a small blurb explaining the number
+of unique words that the artist has and the artist's popularity by an algorithm
+based on an algorithm that measures the artist's popularity on twitter.
+
+The third graphical representation of an artist's lyrics is the Literal Diversity
+Graph. This graph measures the number of unique words that the artist uses in
+the first 20000 words of his or her discography along the x-axis and measures 
+his or her twitter popularity along the y-axis.
+Similarly to the Influence Graph, clicking on any artist will show the user an
+Artist's popularity on twitter and his or her number of unique words.
+
+At any point the user can click on the red plus sign on the upper right to add
+an artist the list of artists who are being analyzed or click the yellow button
+on the upper left to return to the home screen.

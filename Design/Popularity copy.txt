@@ -1,0 +1,21 @@
+Rapper,Twitter Data
+Kendrick Lamar,1487
+Kanye West,1087
+Wu-Tang Clan,985
+DMX,477
+Aesop Rock,0
+ASAP Rocky,1361
+Blackalicious,137
+Drake,24145
+2pac,372
+Lil Wayne,3157
+Outkast,1237
+Wale,12535
+Nas,2842
+Dr Dre,1265
+Mos Def,212
+Common,5197
+Jay Z,2766
+Rakim,185
+GZA,458
+Tech N9ne,1458
