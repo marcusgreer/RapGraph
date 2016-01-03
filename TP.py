@@ -435,6 +435,7 @@ class rapGraph(eventBasedAnimation.Animation):
         # makes a tag cloud for the clicked artist.
         #For some reason these imports only work when placed in the function
         #but they do not if they are placed at the top of the document
+        #mouseTagCloud
         from Tkinter import Tk, Frame, Canvas
         from PIL import ImageTk
         for rapper in reversed(self.rappers):
